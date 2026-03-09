@@ -50,6 +50,14 @@ openclaw-remote-deploy-template/
 │  ├─ network-troubleshooting.md
 │  ├─ common-pitfalls.md
 │  └─ troubleshooting.md
+├─ agents/
+│  ├─ README.md
+│  ├─ quick-checklist.md
+│  ├─ deploy-ubuntu.md
+│  ├─ deploy-windows-wsl.md
+│  ├─ diagnose-ssh.md
+│  ├─ diagnose-network.md
+│  └─ diagnose-openclaw.md
 └─ scripts/
    ├─ install-macos.sh
    ├─ install-ubuntu.sh
@@ -74,6 +82,33 @@ openclaw-remote-deploy-template/
 - **你連 SSH 都還不熟** → 先看 `docs/no-ssh-beginner-guide.md`
 - **你懷疑是代理/VPN/局域網導致 SSH 不通** → 看 `docs/network-troubleshooting.md`
 - **你想先掃一遍所有常見坑** → 看 `docs/common-pitfalls.md`
+
+---
+
+## AI Agent / 自動化工具也能用
+
+這個 repo 現在包含一套 `agents/` 目錄，專門給：
+
+- AI agents
+- 自動化腳本
+- 技術協作者
+- 需要明確執行順序的人
+
+特點：
+
+- preconditions 清楚
+- 命令塊穩定
+- if/then 決策明確
+- 可用於快速分類問題
+
+建議入口：
+
+- 快速分類 → `agents/quick-checklist.md`
+- Ubuntu 部署 → `agents/deploy-ubuntu.md`
+- Windows WSL2 部署 → `agents/deploy-windows-wsl.md`
+- SSH 排錯 → `agents/diagnose-ssh.md`
+- 網路/代理排錯 → `agents/diagnose-network.md`
+- OpenClaw 排錯 → `agents/diagnose-openclaw.md`
 
 ---
 
