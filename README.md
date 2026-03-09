@@ -26,6 +26,8 @@
 - Windows WSL 準備說明
 - SSH 新手指南
 - 故障排查文件
+- 網路 / 代理 / SSH 排錯
+- 常見坑總整理
 
 ---
 
@@ -45,6 +47,8 @@ openclaw-remote-deploy-template/
 │  ├─ raspberry-pi.md
 │  ├─ docker.md
 │  ├─ windows-wsl.md
+│  ├─ network-troubleshooting.md
+│  ├─ common-pitfalls.md
 │  └─ troubleshooting.md
 └─ scripts/
    ├─ install-macos.sh
@@ -68,6 +72,8 @@ openclaw-remote-deploy-template/
 - **你想先用容器試跑** → 看 `docs/docker.md`
 - **你用 Windows，但不想直接碰 Linux 主機** → 先看 `docs/windows-wsl.md`
 - **你連 SSH 都還不熟** → 先看 `docs/no-ssh-beginner-guide.md`
+- **你懷疑是代理/VPN/局域網導致 SSH 不通** → 看 `docs/network-troubleshooting.md`
+- **你想先掃一遍所有常見坑** → 看 `docs/common-pitfalls.md`
 
 ---
 
@@ -212,6 +218,8 @@ openclaw gateway --help
 ## 遇到問題先看
 
 - `docs/troubleshooting.md`
+- `docs/network-troubleshooting.md`
+- `docs/common-pitfalls.md`
 
 涵蓋：
 
@@ -221,6 +229,9 @@ openclaw gateway --help
 - plugin not found
 - Node 版本不相容
 - model 不支援
+- 代理軟體導致 SSH 不通
+- Windows / WSL2 常見坑
+- 遠端部署常見流程錯誤
 
 ---
 
