@@ -3,6 +3,10 @@
 如果你用 Windows，最推薦的方式通常不是直接在原生 Windows 上硬裝所有東西，
 而是先開一個 Linux 環境（WSL）。
 
+如果你遇到更多 Windows / WSL2 特有問題，再繼續看：
+
+- `windows-wsl-advanced.md`
+
 ---
 
 ## 1. 安裝 WSL

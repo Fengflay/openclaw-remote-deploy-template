@@ -24,6 +24,7 @@
 
 - Docker 方案
 - Windows WSL 準備說明
+- Windows / WSL2 進階坑位整理
 - SSH 新手指南
 - 故障排查文件
 - 網路 / 代理 / SSH 排錯
@@ -47,6 +48,7 @@ openclaw-remote-deploy-template/
 │  ├─ raspberry-pi.md
 │  ├─ docker.md
 │  ├─ windows-wsl.md
+│  ├─ windows-wsl-advanced.md
 │  ├─ network-troubleshooting.md
 │  ├─ common-pitfalls.md
 │  └─ troubleshooting.md
@@ -55,6 +57,7 @@ openclaw-remote-deploy-template/
 │  ├─ quick-checklist.md
 │  ├─ deploy-ubuntu.md
 │  ├─ deploy-windows-wsl.md
+│  ├─ deploy-windows-wsl-advanced.md
 │  ├─ diagnose-ssh.md
 │  ├─ diagnose-network.md
 │  └─ diagnose-openclaw.md
@@ -79,6 +82,7 @@ openclaw-remote-deploy-template/
 - **你要用 Raspberry Pi** → 看 `docs/raspberry-pi.md`
 - **你想先用容器試跑** → 看 `docs/docker.md`
 - **你用 Windows，但不想直接碰 Linux 主機** → 先看 `docs/windows-wsl.md`
+- **你在 Windows / WSL2 上遇到更多怪問題** → 看 `docs/windows-wsl-advanced.md`
 - **你連 SSH 都還不熟** → 先看 `docs/no-ssh-beginner-guide.md`
 - **你懷疑是代理/VPN/局域網導致 SSH 不通** → 看 `docs/network-troubleshooting.md`
 - **你想先掃一遍所有常見坑** → 看 `docs/common-pitfalls.md`
