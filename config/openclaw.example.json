@@ -1,0 +1,14 @@
+{
+  "gateway": {
+    "host": "127.0.0.1",
+    "port": 18789
+  },
+  "model": {
+    "default": "openai/gpt-5.4"
+  },
+  "notes": [
+    "Copy this file to config/openclaw.json and adjust as needed.",
+    "Check local OpenClaw docs for exact config keys supported by your installed version.",
+    "Do not store real secrets in this JSON if you can keep them in .env instead."
+  ]
+}
