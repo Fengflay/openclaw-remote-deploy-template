@@ -18,6 +18,7 @@ Read the most relevant file first.
 - For Windows via WSL2: `deploy-windows-wsl.md`
 - For advanced Windows/WSL2 cases: `deploy-windows-wsl-advanced.md`
 - For SSH diagnosis: `diagnose-ssh.md`
+- For Windows-host SSH diagnosis: `diagnose-windows-ssh.md`
 - For network diagnosis: `diagnose-network.md`
 - For OpenClaw diagnosis: `diagnose-openclaw.md`
 - For short triage: `quick-checklist.md`
